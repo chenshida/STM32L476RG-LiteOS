@@ -44,7 +44,7 @@
 #include <string.h>
 
 //#define LOS_KERNEL_TEST_KEIL_SWSIMU
-//#define LOS_KERNEL_DEBUG_OUT
+#define LOS_KERNEL_DEBUG_OUT
 
 #ifdef LOS_KERNEL_DEBUG_OUT
     #define dprintf (VOID)printf

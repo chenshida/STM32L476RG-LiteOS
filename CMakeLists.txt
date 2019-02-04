@@ -40,6 +40,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1)
 add_definitions(-D__weak=__attribute__\(\(weak\)\) -D__packed=__attribute__\(\(__packed__\)\) -DUSE_HAL_DRIVER -DSTM32L476xx)
+ADD_DEFINITIONS(-DLOS_KERNEL_DEBUG_OUT)
 
 file(GLOB_RECURSE SOURCES "startup/*.*"
         "Drivers/*.*"
@@ -57,6 +58,7 @@ file(GLOB_RECURSE SOURCES "startup/*.*"
         "MiddleWares/LiteOS/kernel/base/mem/bestfit_little/*.*"
         "MiddleWares/LiteOS/kernel/base/mem/common/*.*"
         "MiddleWares/LiteOS/kernel/base/mem/membox/*.*"
+        "MiddleWares/LiteOS/examples/api/*.*"
 
         "MiddleWares/LiteOS/arch/arm/arm-m/cortex-m4/gcc/los_dispatch_gcc.S"
         )
@@ -70,6 +72,7 @@ include_directories(Inc
         MiddleWares/LiteOS/kernel/include
         MiddleWares/LiteOS/kernel/base/include
         MiddleWares/LiteOS/kernel/extended/include
+        MiddleWares/LiteOS/examples/include
 
         MiddleWares/LiteOS/arch/arm/arm-m/include
         MiddleWares/LiteOS/OS_CONFIG
