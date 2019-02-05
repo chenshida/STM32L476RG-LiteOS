@@ -45,6 +45,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "los_base.h"
 
 /* USER CODE END Includes */
 
@@ -110,6 +111,12 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+  if(LOS_OK != LOS_KernelInit())
+  {
+    return LOS_NOK;
+  }
+  LOS_Inspect_Entry();
+  LOS_Start();
 
   /* USER CODE END 2 */
 

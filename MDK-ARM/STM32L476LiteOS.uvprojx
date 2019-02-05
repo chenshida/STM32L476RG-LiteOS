@@ -134,11 +134,11 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4107</DriverSelection>
+            <DriverSelection>4101</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>STLink\ST-LINKIII-KEIL_SWO.dll</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -187,7 +187,7 @@
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>1</useUlib>
+            <useUlib>0</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -335,9 +335,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_HAL_DRIVER,STM32L476xx</Define>
+              <Define>USE_HAL_DRIVER,STM32L476xx,LOS_KERNEL_DEBUG_OUT</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;../Drivers/STM32L4xx_HAL_Driver/Inc;../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32L4xx/Include;../Drivers/CMSIS/Include;../MiddleWares/LiteOS/arch/arm/arm-m/include;../MiddleWares/LiteOS/OS_CONFIG;../MiddleWares/LiteOS/kernel/include;../MiddleWares/LiteOS/kernel/base/include;../MiddleWares/LiteOS/kernel/extended/include</IncludePath>
+              <IncludePath>../Inc;../Drivers/STM32L4xx_HAL_Driver/Inc;../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32L4xx/Include;../Drivers/CMSIS/Include;../MiddleWares/LiteOS/arch/arm/arm-m/include;../MiddleWares/LiteOS/OS_CONFIG;../MiddleWares/LiteOS/kernel/include;../MiddleWares/LiteOS/kernel/base/include;../MiddleWares/LiteOS/kernel/extended/include;../MiddleWares/LiteOS/examples/include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -655,6 +655,76 @@
               <FileName>los_tickless.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\MiddleWares\LiteOS\kernel\extended\tickless\los_tickless.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Middleware/LiteOS/example</GroupName>
+          <Files>
+            <File>
+              <FileName>los_api_dynamic_mem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_dynamic_mem.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_api_event.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_event.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_api_interrupt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_interrupt.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_api_list.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_list.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_api_msgqueue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_msgqueue.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_api_mutex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_mutex.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_api_sem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_sem.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_api_static_mem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_static_mem.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_api_systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_systick.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_api_task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_task.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_api_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_api_timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_demo_entry.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_demo_entry.c</FilePath>
+            </File>
+            <File>
+              <FileName>los_inspect_entry.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MiddleWares\LiteOS\examples\api\los_inspect_entry.c</FilePath>
             </File>
           </Files>
         </Group>

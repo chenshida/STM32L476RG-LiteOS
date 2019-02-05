@@ -65,6 +65,7 @@
 /* dlist */
 #include "los_api_list.h"
 
+
 extern VOID LOS_Demo_Entry(VOID);
 
 #endif

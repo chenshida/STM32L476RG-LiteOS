@@ -48,6 +48,9 @@
 
 /* USER CODE BEGIN Includes */
 
+
+typedef struct __FILE FILE;
+
 /* USER CODE END Includes */
 
 extern UART_HandleTypeDef huart1;

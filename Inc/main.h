@@ -52,6 +52,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "los_inspect_entry.h"
 
 /* USER CODE END Includes */
 

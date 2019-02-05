@@ -1,7 +1,7 @@
 Dependencies for Project 'STM32L476LiteOS', Target 'STM32L476LiteOS': (DO NOT MODIFY !)
-F (startup_stm32l476xx.s)(0x5C565D4E)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1"--list startup_stm32l476xx.lst --xref -o stm32l476liteos\startup_stm32l476xx.o --depend stm32l476liteos\startup_stm32l476xx.d)
-F (../Src/main.c)(0x5C565D49)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\main.o --omf_browse stm32l476liteos\main.crf --depend stm32l476liteos\main.d)
-I (../Inc/main.h)(0x5C565D49)
+F (startup_stm32l476xx.s)(0x5C57C633)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1"--list startup_stm32l476xx.lst --xref -o stm32l476liteos\startup_stm32l476xx.o --depend stm32l476liteos\startup_stm32l476xx.d)
+F (../Src/main.c)(0x5C58E8FE)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\main.o --omf_browse stm32l476liteos\main.crf --depend stm32l476liteos\main.d)
+I (../Inc/main.h)(0x5C58E8FF)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -32,11 +32,25 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-I (../Inc/usart.h)(0x5C565D48)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../Inc/usart.h)(0x5C58FBE9)
 I (../Inc/gpio.h)(0x5C565D48)
-F (../Src/gpio.c)(0x5C565D47)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\gpio.o --omf_browse stm32l476liteos\gpio.crf --depend stm32l476liteos\gpio.d)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+F (../Src/gpio.c)(0x5C565D47)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\gpio.o --omf_browse stm32l476liteos\gpio.crf --depend stm32l476liteos\gpio.d)
 I (../Inc/gpio.h)(0x5C565D48)
-I (../Inc/main.h)(0x5C565D49)
+I (../Inc/main.h)(0x5C58E8FF)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -67,9 +81,13 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Src/usart.c)(0x5C565D48)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\usart.o --omf_browse stm32l476liteos\usart.crf --depend stm32l476liteos\usart.d)
-I (../Inc/usart.h)(0x5C565D48)
-I (../Inc/main.h)(0x5C565D49)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+F (../Src/usart.c)(0x5C57C6A3)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\usart.o --omf_browse stm32l476liteos\usart.crf --depend stm32l476liteos\usart.d)
+I (../Inc/usart.h)(0x5C58FBE9)
+I (../Inc/main.h)(0x5C58E8FF)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -100,8 +118,12 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Src/stm32l4xx_it.c)(0x5C566CFC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_it.o --omf_browse stm32l476liteos\stm32l4xx_it.crf --depend stm32l476liteos\stm32l4xx_it.d)
-I (../Inc/main.h)(0x5C565D49)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+F (../Src/stm32l4xx_it.c)(0x5C57C633)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_it.o --omf_browse stm32l476liteos\stm32l4xx_it.crf --depend stm32l476liteos\stm32l4xx_it.d)
+I (../Inc/main.h)(0x5C58E8FF)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -132,9 +154,13 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
 I (../Inc/stm32l4xx_it.h)(0x5C565D48)
-F (../Src/stm32l4xx_hal_msp.c)(0x5C565D49)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_msp.o --omf_browse stm32l476liteos\stm32l4xx_hal_msp.crf --depend stm32l476liteos\stm32l4xx_hal_msp.d)
-I (../Inc/main.h)(0x5C565D49)
+F (../Src/stm32l4xx_hal_msp.c)(0x5C565D49)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_msp.o --omf_browse stm32l476liteos\stm32l4xx_hal_msp.crf --depend stm32l476liteos\stm32l4xx_hal_msp.d)
+I (../Inc/main.h)(0x5C58E8FF)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -165,7 +191,11 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c)(0x5C315BC6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_tim.o --omf_browse stm32l476liteos\stm32l4xx_hal_tim.crf --depend stm32l476liteos\stm32l4xx_hal_tim.d)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c)(0x5C315BC6)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_tim.o --omf_browse stm32l476liteos\stm32l4xx_hal_tim.crf --depend stm32l476liteos\stm32l4xx_hal_tim.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -196,7 +226,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c)(0x5C315BC6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_tim_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_tim_ex.crf --depend stm32l476liteos\stm32l4xx_hal_tim_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c)(0x5C315BC6)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_tim_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_tim_ex.crf --depend stm32l476liteos\stm32l4xx_hal_tim_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -227,7 +257,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c)(0x5C315BC6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_uart.o --omf_browse stm32l476liteos\stm32l4xx_hal_uart.crf --depend stm32l476liteos\stm32l4xx_hal_uart.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c)(0x5C315BC6)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_uart.o --omf_browse stm32l476liteos\stm32l4xx_hal_uart.crf --depend stm32l476liteos\stm32l4xx_hal_uart.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -258,7 +288,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c)(0x5C315BC6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_uart_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_uart_ex.crf --depend stm32l476liteos\stm32l4xx_hal_uart_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c)(0x5C315BC6)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_uart_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_uart_ex.crf --depend stm32l476liteos\stm32l4xx_hal_uart_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -289,7 +319,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c)(0x5C315BC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal.o --omf_browse stm32l476liteos\stm32l4xx_hal.crf --depend stm32l476liteos\stm32l4xx_hal.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c)(0x5C315BC4)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal.o --omf_browse stm32l476liteos\stm32l4xx_hal.crf --depend stm32l476liteos\stm32l4xx_hal.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -320,7 +350,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_i2c.o --omf_browse stm32l476liteos\stm32l4xx_hal_i2c.crf --depend stm32l476liteos\stm32l4xx_hal_i2c.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_i2c.o --omf_browse stm32l476liteos\stm32l4xx_hal_i2c.crf --depend stm32l476liteos\stm32l4xx_hal_i2c.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -351,7 +381,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_i2c_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_i2c_ex.crf --depend stm32l476liteos\stm32l4xx_hal_i2c_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_i2c_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_i2c_ex.crf --depend stm32l476liteos\stm32l4xx_hal_i2c_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -382,7 +412,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_rcc.o --omf_browse stm32l476liteos\stm32l4xx_hal_rcc.crf --depend stm32l476liteos\stm32l4xx_hal_rcc.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_rcc.o --omf_browse stm32l476liteos\stm32l4xx_hal_rcc.crf --depend stm32l476liteos\stm32l4xx_hal_rcc.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -413,7 +443,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_rcc_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_rcc_ex.crf --depend stm32l476liteos\stm32l4xx_hal_rcc_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_rcc_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_rcc_ex.crf --depend stm32l476liteos\stm32l4xx_hal_rcc_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -444,7 +474,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_flash.o --omf_browse stm32l476liteos\stm32l4xx_hal_flash.crf --depend stm32l476liteos\stm32l4xx_hal_flash.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_flash.o --omf_browse stm32l476liteos\stm32l4xx_hal_flash.crf --depend stm32l476liteos\stm32l4xx_hal_flash.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -475,7 +505,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_flash_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_flash_ex.crf --depend stm32l476liteos\stm32l4xx_hal_flash_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_flash_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_flash_ex.crf --depend stm32l476liteos\stm32l4xx_hal_flash_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -506,7 +536,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_flash_ramfunc.o --omf_browse stm32l476liteos\stm32l4xx_hal_flash_ramfunc.crf --depend stm32l476liteos\stm32l4xx_hal_flash_ramfunc.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_flash_ramfunc.o --omf_browse stm32l476liteos\stm32l4xx_hal_flash_ramfunc.crf --depend stm32l476liteos\stm32l4xx_hal_flash_ramfunc.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -537,7 +567,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_gpio.o --omf_browse stm32l476liteos\stm32l4xx_hal_gpio.crf --depend stm32l476liteos\stm32l4xx_hal_gpio.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_gpio.o --omf_browse stm32l476liteos\stm32l4xx_hal_gpio.crf --depend stm32l476liteos\stm32l4xx_hal_gpio.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -568,7 +598,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_dma.o --omf_browse stm32l476liteos\stm32l4xx_hal_dma.crf --depend stm32l476liteos\stm32l4xx_hal_dma.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_dma.o --omf_browse stm32l476liteos\stm32l4xx_hal_dma.crf --depend stm32l476liteos\stm32l4xx_hal_dma.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -599,7 +629,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_dma_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_dma_ex.crf --depend stm32l476liteos\stm32l4xx_hal_dma_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_dma_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_dma_ex.crf --depend stm32l476liteos\stm32l4xx_hal_dma_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -630,7 +660,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_pwr.o --omf_browse stm32l476liteos\stm32l4xx_hal_pwr.crf --depend stm32l476liteos\stm32l4xx_hal_pwr.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_pwr.o --omf_browse stm32l476liteos\stm32l4xx_hal_pwr.crf --depend stm32l476liteos\stm32l4xx_hal_pwr.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -661,7 +691,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_pwr_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_pwr_ex.crf --depend stm32l476liteos\stm32l4xx_hal_pwr_ex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c)(0x5C315BC5)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_pwr_ex.o --omf_browse stm32l476liteos\stm32l4xx_hal_pwr_ex.crf --depend stm32l476liteos\stm32l4xx_hal_pwr_ex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -692,7 +722,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c)(0x5C315BC4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\stm32l4xx_hal_cortex.o --omf_browse stm32l476liteos\stm32l4xx_hal_cortex.crf --depend stm32l476liteos\stm32l4xx_hal_cortex.d)
+F (../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c)(0x5C315BC4)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\stm32l4xx_hal_cortex.o --omf_browse stm32l476liteos\stm32l4xx_hal_cortex.crf --depend stm32l476liteos\stm32l4xx_hal_cortex.d)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
 I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
@@ -723,7 +753,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (../Src/system_stm32l4xx.c)(0x5C315B7A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\system_stm32l4xx.o --omf_browse stm32l476liteos\system_stm32l4xx.crf --depend stm32l476liteos\system_stm32l4xx.d)
+F (../Src/system_stm32l4xx.c)(0x5C315B7A)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\system_stm32l4xx.o --omf_browse stm32l476liteos\system_stm32l4xx.crf --depend stm32l476liteos\system_stm32l4xx.d)
 I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
 I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
@@ -754,7 +784,7 @@ I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
 I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
-F (..\MiddleWares\LiteOS\arch\arm\arm-m\src\los_hw.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_hw.o --omf_browse stm32l476liteos\los_hw.crf --depend stm32l476liteos\los_hw.d)
+F (..\MiddleWares\LiteOS\arch\arm\arm-m\src\los_hw.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_hw.o --omf_browse stm32l476liteos\los_hw.crf --depend stm32l476liteos\los_hw.d)
 I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
@@ -806,7 +836,7 @@ I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_priqueue.ph)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\arch\arm\arm-m\src\los_hw_tick.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_hw_tick.o --omf_browse stm32l476liteos\los_hw_tick.crf --depend stm32l476liteos\los_hw_tick.d)
+F (..\MiddleWares\LiteOS\arch\arm\arm-m\src\los_hw_tick.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_hw_tick.o --omf_browse stm32l476liteos\los_hw_tick.crf --depend stm32l476liteos\los_hw_tick.d)
 I (../MiddleWares/LiteOS/kernel/base/include/los_tick.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
@@ -859,7 +889,7 @@ I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_swtmr.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\arch\arm\arm-m\src\los_hwi.c)(0x5C559B29)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_hwi.o --omf_browse stm32l476liteos\los_hwi.crf --depend stm32l476liteos\los_hwi.d)
+F (..\MiddleWares\LiteOS\arch\arm\arm-m\src\los_hwi.c)(0x5C559B29)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_hwi.o --omf_browse stm32l476liteos\los_hwi.crf --depend stm32l476liteos\los_hwi.d)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
@@ -907,8 +937,8 @@ I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_tick.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\arch\arm\arm-m\cortex-m4\keil\los_dispatch_keil.S)(0x5BDADE18)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1"--list los_dispatch_keil.lst --xref -o stm32l476liteos\los_dispatch_keil.o --depend stm32l476liteos\los_dispatch_keil.d)
-F (..\MiddleWares\LiteOS\kernel\los_init.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_init.o --omf_browse stm32l476liteos\los_init.crf --depend stm32l476liteos\los_init.d)
+F (..\MiddleWares\LiteOS\arch\arm\arm-m\cortex-m4\keil\los_dispatch_keil.S)(0x5BDADE18)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1"--list los_dispatch_keil.lst --xref -o stm32l476liteos\los_dispatch_keil.o --depend stm32l476liteos\los_dispatch_keil.d)
+F (..\MiddleWares\LiteOS\kernel\los_init.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_init.o --omf_browse stm32l476liteos\los_init.crf --depend stm32l476liteos\los_init.d)
 I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
@@ -959,7 +989,7 @@ I (../MiddleWares/LiteOS/kernel/base/include/los_task.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\core\los_priqueue.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_priqueue.o --omf_browse stm32l476liteos\los_priqueue.crf --depend stm32l476liteos\los_priqueue.d)
+F (..\MiddleWares\LiteOS\kernel\base\core\los_priqueue.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_priqueue.o --omf_browse stm32l476liteos\los_priqueue.crf --depend stm32l476liteos\los_priqueue.d)
 I (..\MiddleWares\LiteOS\kernel\base\core\los_priqueue.inc)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_priqueue.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
@@ -1018,7 +1048,7 @@ I (../MiddleWares/LiteOS/kernel/base/include/los_slab.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_slab.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_heap.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_heap.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\core\los_swtmr.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_swtmr.o --omf_browse stm32l476liteos\los_swtmr.crf --depend stm32l476liteos\los_swtmr.d)
+F (..\MiddleWares\LiteOS\kernel\base\core\los_swtmr.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_swtmr.o --omf_browse stm32l476liteos\los_swtmr.crf --depend stm32l476liteos\los_swtmr.d)
 I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (..\MiddleWares\LiteOS\kernel\base\core\los_swtmr.inc)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_swtmr.ph)(0x5BDADE18)
@@ -1083,7 +1113,7 @@ I (../MiddleWares/LiteOS/kernel/include/los_heap.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_queue.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_queue.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_task.ph)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\core\los_sys.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_sys.o --omf_browse stm32l476liteos\los_sys.crf --depend stm32l476liteos\los_sys.d)
+F (..\MiddleWares\LiteOS\kernel\base\core\los_sys.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_sys.o --omf_browse stm32l476liteos\los_sys.crf --depend stm32l476liteos\los_sys.d)
 I (..\MiddleWares\LiteOS\kernel\base\core\los_sys.inc)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_sys.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_base.ph)(0x5BDADE18)
@@ -1134,7 +1164,7 @@ I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_tick.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\core\los_task.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_task.o --omf_browse stm32l476liteos\los_task.crf --depend stm32l476liteos\los_task.d)
+F (..\MiddleWares\LiteOS\kernel\base\core\los_task.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_task.o --omf_browse stm32l476liteos\los_task.crf --depend stm32l476liteos\los_task.d)
 I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (..\MiddleWares\LiteOS\kernel\base\core\los_task.inc)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_task.ph)(0x5BDADE18)
@@ -1199,7 +1229,7 @@ I (../MiddleWares/LiteOS/kernel/base/include/los_sem.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_sem.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_mux.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_mux.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\core\los_tick.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_tick.o --omf_browse stm32l476liteos\los_tick.crf --depend stm32l476liteos\los_tick.d)
+F (..\MiddleWares\LiteOS\kernel\base\core\los_tick.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_tick.o --omf_browse stm32l476liteos\los_tick.crf --depend stm32l476liteos\los_tick.d)
 I (..\MiddleWares\LiteOS\kernel\base\core\los_tick.inc)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_tick.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
@@ -1256,7 +1286,7 @@ I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_task.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_timeslice.ph)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\core\los_timeslice.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_timeslice.o --omf_browse stm32l476liteos\los_timeslice.crf --depend stm32l476liteos\los_timeslice.d)
+F (..\MiddleWares\LiteOS\kernel\base\core\los_timeslice.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_timeslice.o --omf_browse stm32l476liteos\los_timeslice.crf --depend stm32l476liteos\los_timeslice.d)
 I (../MiddleWares/LiteOS/kernel/base/include/los_sys.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_base.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
@@ -1312,7 +1342,7 @@ I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_tick.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_typedef.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_timeslice.ph)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\ipc\los_event.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_event.o --omf_browse stm32l476liteos\los_event.crf --depend stm32l476liteos\los_event.d)
+F (..\MiddleWares\LiteOS\kernel\base\ipc\los_event.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_event.o --omf_browse stm32l476liteos\los_event.crf --depend stm32l476liteos\los_event.d)
 I (../MiddleWares/LiteOS/kernel/base/include/los_priqueue.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
@@ -1366,7 +1396,7 @@ I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
 I (..\MiddleWares\LiteOS\kernel\base\ipc\los_event.inc)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_event.ph)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\ipc\los_mux.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_mux.o --omf_browse stm32l476liteos\los_mux.crf --depend stm32l476liteos\los_mux.d)
+F (..\MiddleWares\LiteOS\kernel\base\ipc\los_mux.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_mux.o --omf_browse stm32l476liteos\los_mux.crf --depend stm32l476liteos\los_mux.d)
 I (..\MiddleWares\LiteOS\kernel\base\ipc\los_mux.inc)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_mux.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_task.ph)(0x5BDADE18)
@@ -1428,7 +1458,7 @@ I (../MiddleWares/LiteOS/kernel/include/los_slab.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_heap.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_heap.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_priqueue.ph)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\ipc\los_queue.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_queue.o --omf_browse stm32l476liteos\los_queue.crf --depend stm32l476liteos\los_queue.d)
+F (..\MiddleWares\LiteOS\kernel\base\ipc\los_queue.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_queue.o --omf_browse stm32l476liteos\los_queue.crf --depend stm32l476liteos\los_queue.d)
 I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (../MiddleWares/LiteOS/kernel/base/include/los_queue.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_queue.h)(0x5BDADE18)
@@ -1490,7 +1520,7 @@ I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\ipc\los_sem.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_sem.o --omf_browse stm32l476liteos\los_sem.crf --depend stm32l476liteos\los_sem.d)
+F (..\MiddleWares\LiteOS\kernel\base\ipc\los_sem.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_sem.o --omf_browse stm32l476liteos\los_sem.crf --depend stm32l476liteos\los_sem.d)
 I (..\MiddleWares\LiteOS\kernel\base\ipc\los_sem.inc)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_sem.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_sem.h)(0x5BDADE18)
@@ -1554,7 +1584,7 @@ I (../MiddleWares/LiteOS/kernel/include/los_heap.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_priqueue.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_sys.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_task.ph)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\misc\los_misc.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_misc.o --omf_browse stm32l476liteos\los_misc.crf --depend stm32l476liteos\los_misc.d)
+F (..\MiddleWares\LiteOS\kernel\base\misc\los_misc.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_misc.o --omf_browse stm32l476liteos\los_misc.crf --depend stm32l476liteos\los_misc.d)
 I (../MiddleWares/LiteOS/kernel/base/include/los_base.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
@@ -1607,7 +1637,7 @@ I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\om\los_err.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_err.o --omf_browse stm32l476liteos\los_err.crf --depend stm32l476liteos\los_err.d)
+F (..\MiddleWares\LiteOS\kernel\base\om\los_err.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_err.o --omf_browse stm32l476liteos\los_err.crf --depend stm32l476liteos\los_err.d)
 I (..\MiddleWares\LiteOS\kernel\base\om\los_err.inc)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_err.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
@@ -1653,7 +1683,7 @@ I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
 I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
 I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\mem\bestfit_little\los_heap.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_heap.o --omf_browse stm32l476liteos\los_heap.crf --depend stm32l476liteos\los_heap.d)
+F (..\MiddleWares\LiteOS\kernel\base\mem\bestfit_little\los_heap.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_heap.o --omf_browse stm32l476liteos\los_heap.crf --depend stm32l476liteos\los_heap.d)
 I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
@@ -1703,7 +1733,7 @@ I (../MiddleWares/LiteOS/kernel/base/include/los_heap.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_heap.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_slab.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_slab.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\mem\bestfit_little\los_memory.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_memory.o --omf_browse stm32l476liteos\los_memory.crf --depend stm32l476liteos\los_memory.d)
+F (..\MiddleWares\LiteOS\kernel\base\mem\bestfit_little\los_memory.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_memory.o --omf_browse stm32l476liteos\los_memory.crf --depend stm32l476liteos\los_memory.d)
 I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
@@ -1755,7 +1785,7 @@ I (../MiddleWares/LiteOS/kernel/base/include/los_heap.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_heap.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\mem\common\los_memcheck.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_memcheck.o --omf_browse stm32l476liteos\los_memcheck.crf --depend stm32l476liteos\los_memcheck.d)
+F (..\MiddleWares\LiteOS\kernel\base\mem\common\los_memcheck.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_memcheck.o --omf_browse stm32l476liteos\los_memcheck.crf --depend stm32l476liteos\los_memcheck.d)
 I (../MiddleWares/LiteOS/kernel/base/include/los_memcheck.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_memcheck.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
@@ -1809,7 +1839,7 @@ I (../MiddleWares/LiteOS/kernel/base/include/los_heap.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_heap.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_membox.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_membox.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\mem\common\los_memstat.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_memstat.o --omf_browse stm32l476liteos\los_memstat.crf --depend stm32l476liteos\los_memstat.d)
+F (..\MiddleWares\LiteOS\kernel\base\mem\common\los_memstat.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_memstat.o --omf_browse stm32l476liteos\los_memstat.crf --depend stm32l476liteos\los_memstat.d)
 I (..\MiddleWares\LiteOS\kernel\base\mem\common\los_memstat.inc)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_memstat.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
@@ -1862,7 +1892,7 @@ I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\mem\common\los_slab.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_slab.o --omf_browse stm32l476liteos\los_slab.crf --depend stm32l476liteos\los_slab.d)
+F (..\MiddleWares\LiteOS\kernel\base\mem\common\los_slab.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_slab.o --omf_browse stm32l476liteos\los_slab.crf --depend stm32l476liteos\los_slab.d)
 I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
 I (../MiddleWares/LiteOS/kernel/base/include/los_slab.ph)(0x5BDADE18)
@@ -1908,7 +1938,7 @@ I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_slab.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\mem\common\los_slabmem.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_slabmem.o --omf_browse stm32l476liteos\los_slabmem.crf --depend stm32l476liteos\los_slabmem.d)
+F (..\MiddleWares\LiteOS\kernel\base\mem\common\los_slabmem.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_slabmem.o --omf_browse stm32l476liteos\los_slabmem.crf --depend stm32l476liteos\los_slabmem.d)
 I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
 I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
 I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
@@ -1956,7 +1986,7 @@ I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_slab.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\base\mem\membox\los_membox.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_membox.o --omf_browse stm32l476liteos\los_membox.crf --depend stm32l476liteos\los_membox.d)
+F (..\MiddleWares\LiteOS\kernel\base\mem\membox\los_membox.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_membox.o --omf_browse stm32l476liteos\los_membox.crf --depend stm32l476liteos\los_membox.d)
 I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
@@ -2004,7 +2034,7 @@ I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/base/include/los_membox.ph)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_membox.h)(0x5BDADE18)
-F (..\MiddleWares\LiteOS\kernel\extended\tickless\los_tickless.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx-o stm32l476liteos\los_tickless.o --omf_browse stm32l476liteos\los_tickless.crf --depend stm32l476liteos\los_tickless.d)
+F (..\MiddleWares\LiteOS\kernel\extended\tickless\los_tickless.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_tickless.o --omf_browse stm32l476liteos\los_tickless.crf --depend stm32l476liteos\los_tickless.d)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
@@ -2059,3 +2089,706 @@ I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw_tick.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
 I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_dynamic_mem.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_dynamic_mem.o --omf_browse stm32l476liteos\los_api_dynamic_mem.crf --depend stm32l476liteos\los_api_dynamic_mem.d)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/kernel/include/los_memory.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/base/include/los_slab.ph)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_slab.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/base/include/los_heap.ph)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_heap.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_dynamic_mem.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_event.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_event.o --omf_browse stm32l476liteos\los_api_event.crf --depend stm32l476liteos\los_api_event.d)
+I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_event.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_interrupt.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_interrupt.o --omf_browse stm32l476liteos\los_api_interrupt.crf --depend stm32l476liteos\los_api_interrupt.d)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_interrupt.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_list.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_list.o --omf_browse stm32l476liteos\los_api_list.crf --depend stm32l476liteos\los_api_list.d)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/kernel/include/los_memory.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/base/include/los_slab.ph)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_slab.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/base/include/los_heap.ph)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_heap.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_msgqueue.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_msgqueue.o --omf_browse stm32l476liteos\los_api_msgqueue.crf --depend stm32l476liteos\los_api_msgqueue.d)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_swtmr.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_queue.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_msgqueue.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_mutex.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_mutex.o --omf_browse stm32l476liteos\los_api_mutex.crf --depend stm32l476liteos\los_api_mutex.d)
+I (../MiddleWares/LiteOS/kernel/include/los_mux.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_mutex.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_sem.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_sem.o --omf_browse stm32l476liteos\los_api_sem.crf --depend stm32l476liteos\los_api_sem.d)
+I (../MiddleWares/LiteOS/kernel/include/los_sem.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/base/include/los_base.ph)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_sem.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_static_mem.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_static_mem.o --omf_browse stm32l476liteos\los_api_static_mem.crf --depend stm32l476liteos\los_api_static_mem.d)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/kernel/include/los_membox.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/examples/include/los_api_static_mem.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_systick.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_systick.o --omf_browse stm32l476liteos\los_api_systick.crf --depend stm32l476liteos\los_api_systick.d)
+I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_systick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_task.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_task.o --omf_browse stm32l476liteos\los_api_task.crf --depend stm32l476liteos\los_api_task.d)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\time.h)(0x599ECD2E)
+I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_api_timer.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_api_timer.o --omf_browse stm32l476liteos\los_api_timer.crf --depend stm32l476liteos\los_api_timer.d)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/kernel/include/los_swtmr.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\time.h)(0x599ECD2E)
+I (../MiddleWares/LiteOS/examples/include/los_api_timer.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_demo_entry.c)(0x5C599037)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_demo_entry.o --omf_browse stm32l476liteos\los_demo_entry.crf --depend stm32l476liteos\los_demo_entry.d)
+I (../MiddleWares/LiteOS/examples/include/los_demo_entry.h)(0x5C58E8FF)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/examples/include/los_api_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_dynamic_mem.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_static_mem.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_interrupt.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_msgqueue.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_event.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_mutex.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_sem.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_timer.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_systick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
+F (..\MiddleWares\LiteOS\examples\api\los_inspect_entry.c)(0x5BDADE18)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ../MiddleWares/LiteOS/arch/arm/arm-m/include -I ../MiddleWares/LiteOS/OS_CONFIG -I ../MiddleWares/LiteOS/kernel/include -I ../MiddleWares/LiteOS/kernel/base/include -I ../MiddleWares/LiteOS/kernel/extended/include -I ../MiddleWares/LiteOS/examples/include-I.\RTE\_STM32L476LiteOS-IE:\Keil_MDK_ARM_5_25\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil_MDK_ARM_5_25\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32L476xx -DUSE_HAL_DRIVER -DSTM32L476xx -DLOS_KERNEL_DEBUG_OUT-o stm32l476liteos\los_inspect_entry.o --omf_browse stm32l476liteos\los_inspect_entry.crf --depend stm32l476liteos\los_inspect_entry.d)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/examples/include/los_inspect_entry.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_typedef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_compiler.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_base.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_config.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/OS_CONFIG/target_config.h)(0x5C559D1B)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h)(0x5C315B79)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h)(0x5C315B78)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5C315BC0)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5C315BC0)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5C315BC1)
+I (../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h)(0x5C315B79)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h)(0x5C315BC1)
+I (../Inc/stm32l4xx_hal_conf.h)(0x5C565D49)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5C315BC1)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h)(0x5C315BC2)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h)(0x5C315BC3)
+I (../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h)(0x5C315BC3)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../MiddleWares/LiteOS/OS_CONFIG/los_printf.h)(0x5BDADE18)
+I (E:\Keil_MDK_ARM_5_25\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (../MiddleWares/LiteOS/kernel/include/los_list.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_errno.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_err.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_sys.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hwi.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/arch/arm/arm-m/include/los_hw.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_tick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/kernel/include/los_event.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_demo_debug.h)(0x5C57C633)
+I (../MiddleWares/LiteOS/examples/include/los_api_task.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_dynamic_mem.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_static_mem.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_interrupt.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_msgqueue.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_event.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_mutex.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_sem.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_timer.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_systick.h)(0x5BDADE18)
+I (../MiddleWares/LiteOS/examples/include/los_api_list.h)(0x5BDADE18)

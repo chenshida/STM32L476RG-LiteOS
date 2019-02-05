@@ -31,4 +31,8 @@ stm32l476liteos\stm32l4xx_it.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ha
 stm32l476liteos\stm32l4xx_it.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h
 stm32l476liteos\stm32l4xx_it.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h
 stm32l476liteos\stm32l4xx_it.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
+stm32l476liteos\stm32l4xx_it.o: ../MiddleWares/LiteOS/examples/include/los_inspect_entry.h
+stm32l476liteos\stm32l4xx_it.o: ../MiddleWares/LiteOS/kernel/include/los_typedef.h
+stm32l476liteos\stm32l4xx_it.o: ../MiddleWares/LiteOS/OS_CONFIG/los_builddef.h
+stm32l476liteos\stm32l4xx_it.o: ../MiddleWares/LiteOS/kernel/include/los_compiler.h
 stm32l476liteos\stm32l4xx_it.o: ../Inc/stm32l4xx_it.h
