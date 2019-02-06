@@ -134,7 +134,7 @@ int fputc(int ch, FILE *f)
 __attribute__((used)) int _write(int fd, char *ptr, int len)
 {
     HAL_UART_Transmit(&huart1, (uint8_t *)ptr, len, 0xFFFF);
-    return len;
+    return len;    
 }
 #endif
 

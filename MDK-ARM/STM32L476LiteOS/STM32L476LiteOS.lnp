@@ -62,7 +62,7 @@
 "stm32l476liteos\los_api_timer.o"
 "stm32l476liteos\los_demo_entry.o"
 "stm32l476liteos\los_inspect_entry.o"
---strict --scatter "STM32L476LiteOS\STM32L476LiteOS.sct"
+--library_type=microlib --strict --scatter "STM32L476LiteOS\STM32L476LiteOS.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "STM32L476LiteOS.map" -o STM32L476LiteOS\STM32L476LiteOS.axf

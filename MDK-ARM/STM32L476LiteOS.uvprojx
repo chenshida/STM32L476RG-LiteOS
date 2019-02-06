@@ -187,7 +187,7 @@
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -335,7 +335,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_HAL_DRIVER,STM32L476xx,LOS_KERNEL_DEBUG_OUT</Define>
+              <Define>USE_HAL_DRIVER,STM32L476xx</Define>
               <Undefine></Undefine>
               <IncludePath>../Inc;../Drivers/STM32L4xx_HAL_Driver/Inc;../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32L4xx/Include;../Drivers/CMSIS/Include;../MiddleWares/LiteOS/arch/arm/arm-m/include;../MiddleWares/LiteOS/OS_CONFIG;../MiddleWares/LiteOS/kernel/include;../MiddleWares/LiteOS/kernel/base/include;../MiddleWares/LiteOS/kernel/extended/include;../MiddleWares/LiteOS/examples/include</IncludePath>
             </VariousControls>
